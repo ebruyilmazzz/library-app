@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+}
+#create-user {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d30b0b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#role {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#create-table {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#create-table input {
+    padding: 10px;
+    margin: 5px 0;
+}
+#create-table button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#table-users th, #table-users td {
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+#table-users tr:nth-child(even) {
+    background-color: #72828e;
+    color: #ffffff;
+}
+#table-users tr:nth-child(odd) {
+    background-color: #ffffff;
+    color: #000000;
+}
+#approve-user, #reject-user {
+    padding: 10px 20px;
+    background-color: #096719;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+#approve-user:hover, #reject-user:hover {
+    background-color: #456e8e;
+    color: #ffffff;
+}
+#approve-user {
+    background-color: #025812;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+#reject-user {
+    background-color: #d30b0b;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(19, 19, 19, 0.1);
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: #28a745;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-secondary {
+    background-color: #007bff;
+}
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
